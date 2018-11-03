@@ -14,7 +14,28 @@
  *= require_self
  */
 
-body { padding-top: 100px; }
+body { padding-top: 60px; }
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
+
+.navbar-custom {
+ background-color: #BBBDDD;
+ border-color: #E7E7E7;
+}
+
+.navbar-custom a { font-size: 18px; }
+.navbar-custom a:hover {
+  color: #4a4a54;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+body {  background-color: rgba(200, 255, 255, 50);}
+
+body { background-image:url('gold_scale.png');}
+
+footer {
+  background-color: #ebebeb;
+  padding: 30px 0;
+}
